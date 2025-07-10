@@ -1,2 +1,2 @@
 from app.db.associative import UserTeamAssoc, Result
-from app.db.teams.models import Team
+from app.db.tournaments.model import Tournament

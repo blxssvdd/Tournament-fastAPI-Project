@@ -17,7 +17,7 @@ class Tournament(Base):
     expire_date: Mapped[date] = mapped_column(Date())
     teams: Mapped[List["Team"]] = relationship(secondary=Result.__tablename__, back_populates="tournaments", lazy="selectin")
 
-    def __init__(self, **kwargs):
+    def __init__(self, exp_days: int = 7, **kwargs):
         self.id = uuid4().hex
-        self.expire_date = date.today() + timedelta(days=7)
+        self.expire_date = date.today() + timedelta(days=exp_days)
         super().__init__(**kwargs)

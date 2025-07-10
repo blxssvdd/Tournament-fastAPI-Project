@@ -35,7 +35,7 @@ class User(Base):
 
     @password.setter
     def password(self, pwd: str):
-        self.password_ = bcrypt.hashpw(pwd.endcore(), bcrypt.gensalt())
+        self.password_ = bcrypt.hashpw(pwd.encode(), bcrypt.gensalt())
 
     def is_verify_password(self, pwd: str):
         return bcrypt.checkpw(pwd.encode(), self.password_.encode())
