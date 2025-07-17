@@ -1,8 +1,7 @@
 # 🏆 Tournament Manager API
 
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue?logo=python)](https://python.org)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.68+-green?logo=fastapi)](https://fastapi.tiangolo.com)
-[![Code Style](https://img.shields.io/badge/code%20style-black-000000)](https://github.com/psf/black)
+[![Версия Python](https://img.shields.io/badge/python-3.11-blue?style=for-the-badge&logo=python)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-green?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
 
 Учебный проект системы управления турнирами на FastAPI. Разработан в рамках курса по продвинутому Python.
 
