@@ -3,7 +3,7 @@
 [![Версия Python](https://img.shields.io/badge/python-3.11-blue?style=for-the-badge&logo=python)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-green?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
 
-Учебный проект системы управления турнирами на FastAPI. Разработан в рамках курса по продвинутому Python.
+Учебный проект системы управления турнирами на FastAPI. Разработан в рамках курса по Python.
 
 ---
 
